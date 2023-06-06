@@ -1,4 +1,8 @@
 jdk:
+<<<<<<< HEAD
   - opendjk11
+=======
+  -openjdk11
+>>>>>>> main-dev
 before_install:
   - ./scripts/prepareJitpackEnvironment.sh
