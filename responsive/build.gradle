@@ -54,7 +54,7 @@ afterEvaluate {
             release(MavenPublication) {
                 groupId = 'com.github.lifeof31415926535'
                 artifactId = 'compose-resposive'
-                version = '1.0'
+                version = '1.0.0'
             }
         }
     }
