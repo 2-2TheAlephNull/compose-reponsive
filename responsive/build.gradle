@@ -50,7 +50,7 @@ dependencies {
 
 publishing {
     publications {
-        maven(MavenPublication) {
+        release(MavenPublication) {
             groupId = 'com.github.lifeof31415926535'
             artifactId = 'compose-responsive'
             version = "1.01"
