@@ -48,15 +48,15 @@ dependencies {
     implementation 'androidx.compose.material3:material3'
 }
 
-afterEvaluate {
-    publishing {
-        publications {
-            release(MavenPublication) {
-                from components.release
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId = 'com.github.lifeof31415926535'
+            artifactId = 'compose-responsive'
+            version = "1.01"
 
-                groupId = 'com.github.lifeof31415926535'
-                artifactId = 'compose-resposive'
-                version = '1.0.0'
+            pom {
+                description = 'A library which enables responsive design for Jetpack Compose.'
             }
         }
     }
