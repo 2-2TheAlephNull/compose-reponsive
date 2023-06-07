@@ -56,7 +56,7 @@ afterEvaluate {
 
                 groupId = 'com.github.lifeof31415926535'
                 artifactId = 'compose-responsive'
-                version = "1.03"
+                version = "1.02"
 
                 pom {
                     description = 'A library which enables responsive design for Jetpack Compose.'
